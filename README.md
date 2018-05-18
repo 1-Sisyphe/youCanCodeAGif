@@ -11,8 +11,8 @@ If you have:
 - Linux, because ffmpeg command lines are most likely different elsewhere
 
 Then you can just run main_script.py, cross fingers and see what you get.
-If all work fine, you are suppose to find that gif:
-Or if you changed 'lang' to 'fr' than you will find this one:
+If all work fine, you are suppose to find that gif:  
+Or if you changed 'lang' to 'fr' than you will find this one:  
 
 Basically, as the gif says itself:
 - the script download a video from Youtube
