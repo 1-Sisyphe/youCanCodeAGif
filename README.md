@@ -10,7 +10,8 @@ If yes, then check if you have:
 - Python 3, including PIL and numpy
 - Linux, because ffmpeg command lines are most likely different elsewhere
 
-Then you can just run main_script.py, cross fingers and see what you get.
+Then you can just run main_script.py, cross fingers and see what you get.  
+
 If all work fine, you are suppose to find that gif:  
 Or if you changed 'lang' to 'fr' than you will find this one:  
 
@@ -22,6 +23,6 @@ Basically, as the gif says itself:
 - create the subtitles via subtitles.py and burn them into the video
 - convert the video into a gif
 
-And voilà.
+And voilà.  
 But honestly, you might prefer to just stick to KDEnlive or your favorite video editor :)
 
