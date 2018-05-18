@@ -1,10 +1,10 @@
 # youCanCodeAGif
-Can you make a High Quality Gif (like you find on https://www.reddit.com/r/HighQualityGifs/) from A to Z only by coding?  
+Could you make a High Quality Gif (like you find on www.reddit.com/r/HighQualityGifs) from A to Z only by coding?  
 Yes.
 
 Do you want to, though?  
 
-If you have:  
+If yes, then check if you have:  
 - youtube-dl
 - ffmpeg
 - Python 3, including PIL and numpy
@@ -23,5 +23,5 @@ Basically, as the gif says itself:
 - convert the video into a gif
 
 And voilà.
-But honestly, just stick to KDEnlive or your favorite video editor :)
+But honestly, you might prefer to just stick to KDEnlive or your favorite video editor :)
 
