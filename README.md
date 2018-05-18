@@ -17,7 +17,7 @@ Or if you changed 'lang' to 'fr' than you will find this one:
 Basically, as the gif says itself:
 - the script download a video from Youtube
 - cut it into interesting scenes
-- create several terminal-like scenes, via terminal.py
+- create several terminal-like scenes, via terminal.py. The code you see in the terminal is the actual code from the main_script.py
 - concatenates the scens from the video and from the terminal
 - create the subtitles via subtitles.py and burn them into the video
 - convert the video into a gif
