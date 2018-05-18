@@ -1,5 +1,5 @@
 # youCanCodeAGif
-Can you make an High Quality Gif (like you find on https://www.reddit.com/r/HighQualityGifs/) from A to Z only by coding?  
+Can you make a High Quality Gif (like you find on https://www.reddit.com/r/HighQualityGifs/) from A to Z only by coding?  
 Yes.
 
 Do you want to, though?  
