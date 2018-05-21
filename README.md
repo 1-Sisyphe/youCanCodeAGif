@@ -1,5 +1,5 @@
 # youCanCodeAGif
-Could you make a High Quality Gif (like you find on www.reddit.com/r/HighQualityGifs) from A to Z only by coding?  
+Could you make a High Quality Gif (like what you find on www.reddit.com/r/HighQualityGifs) from A to Z only by coding?  
 Yes.
 
 Do you want to, though?  
@@ -12,8 +12,8 @@ If yes, then make sure that you have:
 
 Then you can just run main_script.py, cross fingers and see what you get.  
 
-If all work fine, you are suppose to find that gif:  
-Or if you changed 'lang' to 'fr' in main_script.py, you will find this one:  
+If all work fine, you are suppose to find that gif: https://imgur.com/3tFIv4d.gifv  
+Or if you changed 'lang' to 'fr' in main_script.py, you will find this one: https://i.imgur.com/Gg7Cz3B.gifv  
 
 Basically, as the gif says:
 - the script download a video from Youtube
