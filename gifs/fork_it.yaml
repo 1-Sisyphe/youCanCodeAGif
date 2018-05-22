@@ -1,0 +1,13 @@
+link: "https://youtu.be/1ifv6iIGPcI"
+colors:
+    - white: '(255,255,255)'
+    - yellow: '(255,233,155)'
+cuttimes:
+    - start: "00:00:00.0"
+      end: "00:00:07.0"
+subs:
+    - text: "I'm gonna fork it!"
+      color: 'white'
+      pos: '240,300'
+      time: '4,5.5'
+      fontsize: 30

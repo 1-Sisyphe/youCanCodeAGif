@@ -9,15 +9,15 @@ if os.path.exists('temp/sub/'):
     shutil.rmtree('temp/sub/')
 os.makedirs('temp/sub/')
 
-def makePngSub(text, color, position, filename):
-    """"Turn a text into a png"""
-    img = Image.new('RGBA',(1280, 544))
-    x,y = position
+def makePngSub(text, color, position, fontsize, filename):
+    """Turn a text into a png"""
+    img = Image.new('RGBA',(480, 360))
+    x,y = position.split(',')
     draw = ImageDraw.Draw(img)
-    font = ImageFont.truetype("Ubuntu-B.ttf",60)
+    font = ImageFont.truetype("Ubuntu-B.ttf",30)
     w, h = draw.multiline_textsize(text, font=font)
-    x = x - w/2
-    y = y - h/2
+    x = float(x) - w/2
+    y = float(y) - h/2
     for i in range(1,6):
         draw.multiline_text((x+i,y+i), text, fill=(0,0,0), font=font, align='center')
     draw.multiline_text((x,y), text, fill=color, font=font, align='center')
@@ -26,14 +26,15 @@ def makePngSub(text, color, position, filename):
     return filename
 
 
-def subVideo(subs,inputvid,outputvid):
+def subVideo(gifconf,inputvid,outputvid):
     """Take a list a subtitles, make each png with makePngSub()
     and add the pngs to the video at the given intervals"""
+    subs = gifconf['subs']
     n=1
     subfiles=[]
     for sub in subs:
-        subfile = makePngSub(text=sub[0],color=sub[1],
-                             position=sub[2],filename=str(n))
+        subfile = makePngSub(text=sub['text'],color=sub['color'],
+                             position=sub['pos'],fontsize=sub['fontsize'],filename=str(n))
         subfiles.append(subfile)
         n+=1
 
@@ -42,7 +43,7 @@ def subVideo(subs,inputvid,outputvid):
         n = 0
         filter_blocks=[]
         for sub in subs:
-            timing = sub[3]
+            timing = sub['time']
             blocks=['']*4
             if n==0:
                 blocks[0]='"[0:v]'
