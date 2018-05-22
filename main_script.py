@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import os
 if not os.path.exists('temp'):
     os.makedirs('temp')
@@ -184,9 +185,37 @@ subs_fr =[
     ["INVINCIBLE !!!",white,(640,460),'63.3,64.6']
 ]
 
+subs_pt_br =[
+    ["Você não pode simplesmente codar uma gif...",yellow,(830,420),'1,2.5'],
+    ["Claro que eu posso.",white,(800,420),'3,4'],
+    ["Eu vou codar",white,(800,420),'4.1,7'],
+    ["essa gif inteira.",white,(800,480),'5.2,7'],
+    ["E eu vou te dar o\n fonte nos comentários.",
+     white,(800,450),'7.1,10'],
+    ['"Você não consegue codar um gif..."',white,(820,420),'11.8,13'],
+    ["Não é nada mais que",white,(800,420),'14,16'],
+    ["uma grande perda de tempo!",white,(800,480),'15,16'],
+    ["Primeiro: eu baixo nosso vídeo\ndo Youtube.",
+     white,(640,450),'17,19.5'],
+    ["Então eu separo cada cena...",
+     white,(640,480),'20,23'],
+    ["Agora eu adiciono nossos diálogos...",white,(640,480),'24,25.4'],
+    ["Deixa eu ver...",yellow,(640,480),'30.5,32.5'],
+    ["Você consegue adicionar um pouco de META?",yellow,(640,480),'32.9,34.5'],
+    ["Vou colocar só um pingo...",white,(640,420),'35,40'],
+    ["Bem discreto, ninguém vai perceber.",white,(640,480),'37,40'],
+    ["Agora eu concateno as cenas....",white,(640,480),'45.6,47.6'],
+    ["E por fim...",white,(640,420),'49.6,52'],
+    ["GIF NESSA BAGAÇA!",white,(640,480),'50.2,52'],
+    ["EU SOU",white,(640,400),'62.8,64.6'],
+    ["INVENCÍVEL!!!",white,(640,460),'63.3,64.6']
+]
+
 #add the subtitles
 if lang=='fr':
     subtitles.subVideo(subs=subs_fr,inputvid='concat_nosub.avi',outputvid='final.avi')
+elif lang=='pt_br':
+    subtitles.subVideo(subs=subs_pt_br,inputvid='concat_nosub.avi',outputvid='final.avi')
 else:
     subtitles.subVideo(subs=subs_en,inputvid='concat_nosub.avi',outputvid='final.avi')
 
