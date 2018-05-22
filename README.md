@@ -7,18 +7,19 @@ Do you want to, though?
 If yes, then make sure that you have:  
 - youtube-dl
 - ffmpeg
-- Python 3, including PIL and numpy
+- Python 3
+- PIL, numpy, and pyyaml python libs
 - Linux, because ffmpeg command lines are most likely different on other OS
 
-Then you can just run main_script.py, cross fingers and see what you get.  
+Then you can just run code_a_gif.py, cross fingers and see what you get.  
 
 If all work fine, you are suppose to find that gif: https://imgur.com/3tFIv4d.gifv  
-Or if you changed 'lang' to 'fr' in main_script.py, you will find this one: https://i.imgur.com/Gg7Cz3B.gifv  
+Or if you changed 'lang' to 'fr' in code_a_gif.py, you will find this one: https://i.imgur.com/Gg7Cz3B.gifv  
 
 Basically, as the gif says:
 - the script download a video from Youtube
 - cut it into interesting scenes
-- create several terminal-like scenes, via terminal.py. The code you see in the terminal is the actual code from the main_script.py
+- create several terminal-like scenes, via terminal.py. The code you see in the terminal is the actual code from the code_a_gif.py
 - concatenates the scenes from the video and from the terminal
 - create the subtitles via subtitles.py and burn them into the video
 - convert the video into a gif
