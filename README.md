@@ -1,5 +1,5 @@
 # youCanCodeAGif
-Could you make a High Quality Gif (like what you find on www.reddit.com/r/HighQualityGifs) from A to Z only by coding?  
+Could you make a High Quality Gif (like what you find on https://www.reddit.com/r/HighQualityGifs) from A to Z only by coding?  
 Yes.
 
 Do you want to, though?  
@@ -25,4 +25,3 @@ Basically, as the gif says:
 
 And voilà.  
 But honestly, you might prefer to just stick to KDEnlive or your favorite video editor :)
-
