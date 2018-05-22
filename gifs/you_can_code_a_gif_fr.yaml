@@ -1,0 +1,92 @@
+link: 'https://www.youtube.com/watch?v=TS_59Y7bYoA'
+cuttimes:
+    - ("00:00:40.5","00:00:57.0")
+    - ("00:01:00.7","00:01:04.5")
+    - ("00:01:13.5","00:01:15.2")
+    - ("00:01:20.3","00:01:31.5")
+    - ("00:01:38.8","00:01:40.9")
+    - ("00:01:47.2","00:01:48.3")
+    - ("00:01:50.6","00:01:53.3")
+    - ("00:01:55.9","00:02:00.0")
+    - ("00:00:27.0","00:00:27.1")
+subs:
+    - text: "On ne peut pas\ncoder un gif..."
+      color: 'yellow'
+      position: '840,420'
+      time: '1,2.5'
+    - text: "Bien sûr qu'on peut."
+      color: 'white'
+      pos: '800,420'
+      time: '3,4'
+    - text: "Je vais te coder"
+      color: 'white'
+      pos: '800,420'
+      time: '4.1,7'
+    - text: "ce gif de A à Z."
+      color: 'white'
+      pos: '800,480'
+      time: '5.2,7'
+    - text: "Et je te mets le code\n dans les commentaires."
+      color: 'white'
+      pos: '800,450'
+      time: '7.1,10'
+    - text: '"On ne peut pas\ncoder un gif..."'
+      color: 'white'
+      pos: '840,420'
+      time: '11.8,13'
+    - text: "C'est rien de plus"
+      color: 'white'
+      pos: '800,420'
+      time: '14,16'
+    - text: "qu'une énorme perte de temps !"
+      color: 'white'
+      pos: '800,480'
+      time: '15,16'
+    - text: "Premièrement: je télécharge la\n vidéo depuis Youtube."
+      color: 'white'
+      pos: '640,450'
+      time: '17,19.5'
+    - text: "Ensuite je découpe les scènes..."
+      color: 'white'
+      pos: '640,480'
+      time: '20,23'
+    - text: "J'ajoute nos dialogues..."
+      color: 'white'
+      pos: '640,480'
+      time: '23.5,25.4'
+    - text: "Attend voir..."
+      color: 'yellow'
+      pos: '640,480'
+      time: '30.3,32'
+    - text: "Tu peux ajouter un peu de META ?"
+      color: 'yellow'
+      pos: '640,480'
+      time: '32.5,34.5'
+    - text: "OK mais juste une pincée..."
+      color: 'white'
+      pos: '640,420'
+      time: '35,40'
+    - text: "Très subtil, personne ne le verra."
+      color: 'white'
+      pos: '640,480'
+      time: '37,40'
+    - text: "Je colle les scènes bout à bout..."
+      color: 'white'
+      pos: '640,480'
+      time: '45,47'
+    - text: "Et pour finir..."
+      color: 'white'
+      pos: '640,420'
+      time: '49.1,51.6'
+    - text: "GIF MOI ÇA !"
+      color: 'white'
+      pos: '640,480'
+      time: '50,51.6'
+    - text: "JE SUIS"
+      color: 'white'
+      pos: '640,400'
+      time: '62.8,64.6'
+    - text: "INVINCIBLE !!!"
+      color: 'white'
+      pos: '640,460'
+      time: '63.3,64.6'
