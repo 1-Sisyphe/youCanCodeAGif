@@ -40,7 +40,8 @@ import terminal
 #take a snapshot used as background for the terminal
 terminal.snapshotBackground('temp/cut9.avi')
 #open this code as a string
-script_lines = [line.rstrip('\n') for line in open('main_script.py')]
+import codecs
+script_lines = [line.rstrip('\n') for line in codecs.open('main_script.py', 'r', 'utf-8')]
 #youtube-dl terminal scene
 code_dlvideo_1 = '\n'.join(script_lines[5:10])
 code_dlvideo_2 = '\n'.join(script_lines[10:22])
