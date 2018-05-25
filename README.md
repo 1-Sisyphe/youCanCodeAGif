@@ -25,3 +25,31 @@ Basically, as the gif says:
 
 And voilà.  
 But honestly, you might prefer to just stick to KDEnlive or your favorite video editor :)
+
+## Dockerized
+
+You can leverage Docker containers to code up a GIF. The only requirement you need is [Docker](https://docs.docker.com/install/).
+
+### Run the docker image with this repository
+
+To run the Docker container in an environment specific to this repository:
+
+```
+# clone this repo
+$ git clone https://github.com/1-Sisyphe/youCanCodeAGif
+
+# make sure the repo is your current working directory
+$ cd youCanCodeAGif
+
+# docker run the docker image (it mounts the cwd to "/usr/src/app")
+$ docker run --rm -ti -v `pwd`:/usr/src/app slikshooz/youcancodeagif:latest "python main_script.py"
+```
+
+### Create dockerimage
+
+For those of you who would rather build it themselves, here is a way to use the same Dockerfile
+
+```
+# Build the image locally
+$ docker build -t youcancodeagif .
+```
