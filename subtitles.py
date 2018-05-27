@@ -4,6 +4,7 @@ from PIL import Image
 from PIL import ImageDraw
 import os
 import shutil
+import exec_cmd
 
 if os.path.exists('temp/sub/'):
     shutil.rmtree('temp/sub/')
@@ -64,4 +65,4 @@ def subVideo(subs,inputvid,outputvid):
     #outputstr = '-y '+ outputvid
     outputstr = '-y -c:v ffv1 '+ outputvid
     command = inputstr+' '+filterstr+' '+outputstr
-    os.system(command)
+    exec_cmd.run(command)
