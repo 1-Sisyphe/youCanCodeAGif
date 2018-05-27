@@ -6,6 +6,7 @@ import random
 import os
 import shutil
 import numpy
+import exec_cmd
 
 if os.path.exists('temp/frames/'):
     shutil.rmtree('temp/frames/')
@@ -14,7 +15,7 @@ os.makedirs('temp/frames/')
 def snapshotBackground(cutscene):
     """Take a 1-frame shot from the video, used as background for the terminal"""
     command='ffmpeg -ss 00:00:00 -i {} -vf "select=eq(n\,0)" -q:v 1 -y temp/background.png'.format(cutscene)
-    os.system(command)
+    exec_cmd.run(command)
 
 def find_coeffs(pa, pb):
     """used in drawTerminal to deform terminal's perspective"""
@@ -111,7 +112,7 @@ def drawFrames(seqname, textcuts, fontsize=16):
 
 def makeVideo(seqname, framerate='24', r='24'):
     """Take all seqname png and join them in an AVI video."""
-    os.system('ffmpeg -framerate '+framerate
+    exec_cmd.run('ffmpeg -framerate '+framerate
               +' -i temp/frames/'+seqname+'%04d.png'
               +' -c:v ffv1'
               +' -r '+r
