@@ -25,10 +25,10 @@ def mark_completed(func):
         for func_name in func_completed:
            print(func_name, file=file)
 
-def execute(func):
+def execute(func, *args):
     global func_completed
     if not any(func.__name__ in s for s in func_completed):
-        func()
+        func(*args)
         mark_completed(func)
 
 def setup_logging():
